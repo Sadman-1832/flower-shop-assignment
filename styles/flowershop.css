@@ -64,8 +64,10 @@
 }
 
 /* featuring section related styles */
-.featured{
-    max-width: 1920px;}
+.featured {
+    max-width: 1920px;
+}
+
 .featured .section-title,
 .section-description {
     text-align: center;
@@ -130,5 +132,57 @@
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
-    
+
+}
+
+/* Hot deal section related styles*/
+.deal {
+    width: 1922px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.deal-content {
+    width: 600px;
+    padding-left: 200px;
+    padding-right: 400px;
+    padding-top: 260px;
+    padding-bottom: 100px;
+    gap: 180px;
+    display: block;
+}
+
+.deal-advertise {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.deal-section .deal-picture {
+    width: 318px;
+    height: 420px;
+    padding-right: 430px;
+    padding-top: 100px;
+
+}
+.deal-section .btn-primary{
+    margin-left: 200px;
+}
+
+.insta{
+    max-width: 1922px;
+}
+
+.insta .section-title, .section-description{
+    text-align: center;
+}
+.displayed-flowers{
+    display: flex;
+    margin: 50px 240px;
+    gap: 25px;
 }
