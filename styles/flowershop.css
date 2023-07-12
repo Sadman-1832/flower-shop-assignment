@@ -26,7 +26,9 @@
 /* header related styles */
 .header {
     background: rgba(229, 84, 115, 0.10);
+
     width: 1920px;
+    margin-bottom: 130px;
 }
 
 .banner {
@@ -139,6 +141,7 @@
 .deal {
     width: 1922px;
     background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 130px;
 }
 
 .deal-content {
@@ -170,67 +173,74 @@
     padding-top: 100px;
 
 }
-.deal-section .btn-primary{
+
+.deal-section .btn-primary {
     margin-left: 200px;
 }
 
-.insta{
+.insta {
     max-width: 1922px;
+    margin-bottom: 130px;
 }
 
-.insta .section-title, .section-description{
+.insta .section-title,
+.section-description {
     text-align: center;
 }
-.displayed-flowers{
+
+.displayed-flowers {
     display: flex;
     margin: 50px 240px;
     gap: 25px;
 }
+
 /* subscribe related styles */
-.subscribe{
-   max-width: 1440px;
-height: 449px;
-margin: 130px 240px;
-padding: 120px 280px;
-background-image: url(../images/Rectangle\ 9.png);
-background-repeat: no-repeat;
+.subscribe {
+    max-width: 1440px;
+    height: 449px;
+    margin: 0px 240px;
+    padding: 120px 280px;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
 }
 
-.subscribe .information{
-width: 700px;
-margin-left: 290px;
-border-radius: 8px;
-border: 0;
+.subscribe .information {
+    width: 700px;
+    margin-left: 290px;
+    border-radius: 8px;
+    border: 0;
 }
+
 .subscribe .section-title {
     text-align: center;
     padding-right: 300px;
 }
-.subscribe .section-description{
+
+.subscribe .section-description {
     text-align: center;
     padding-right: 300px;
 }
-.subscribe .btn-primary{
+
+.subscribe .btn-primary {
     width: 150px;
-height: 65px;
+    height: 65px;
 }
-.subscribe .information{
+
+.subscribe .information {
     width: 700px;
-height: 64px;
+    height: 64px;
 
 }
+
 /* footer related styles */
-footer{
+footer {
     max-width: 1920px;
     height: 450px;
 }
-.copyright{
+
+.copyright {
     background-color: #111010;
     text-align: center;
     padding: 120px 630px;
 
 }
-
-
-
-
