@@ -186,3 +186,51 @@
     margin: 50px 240px;
     gap: 25px;
 }
+/* subscribe related styles */
+.subscribe{
+   max-width: 1440px;
+height: 449px;
+margin: 130px 240px;
+padding: 120px 280px;
+background-image: url(../images/Rectangle\ 9.png);
+background-repeat: no-repeat;
+}
+
+.subscribe .information{
+width: 700px;
+margin-left: 290px;
+border-radius: 8px;
+border: 0;
+}
+.subscribe .section-title {
+    text-align: center;
+    padding-right: 300px;
+}
+.subscribe .section-description{
+    text-align: center;
+    padding-right: 300px;
+}
+.subscribe .btn-primary{
+    width: 150px;
+height: 65px;
+}
+.subscribe .information{
+    width: 700px;
+height: 64px;
+
+}
+/* footer related styles */
+footer{
+    max-width: 1920px;
+    height: 450px;
+}
+.copyright{
+    background-color: #111010;
+    text-align: center;
+    padding: 120px 630px;
+
+}
+
+
+
+
